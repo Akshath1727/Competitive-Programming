@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = int(input())
+
+    if n in range (0,20):
+        for i in range (0,n):
+            print(pow(i,2))
+            
